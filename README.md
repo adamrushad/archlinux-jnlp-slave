@@ -1,2 +1,2 @@
 # archlinux-jnlp-slave
-ArchLinux Jenkins JNLP slave
+Check the distro-specific branches
