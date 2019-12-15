@@ -2,7 +2,7 @@ FROM archlinux:latest
 MAINTAINER AdamRushad <2429990+adamrushad@users.noreply.github.com>
 
 #Install
-RUN pacman -Syu --noconfirm && pacman -S jre8-openjdk-headless --noconfirm && Pacman -Scc --noconfirm
+RUN pacman -Syu --noconfirm && pacman -S jre8-openjdk-headless --noconfirm && pacman -Scc --noconfirm
 
 #Workspace volume
 VOLUME ["/workspace"]
